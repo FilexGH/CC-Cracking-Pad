@@ -8,4 +8,4 @@ numbers, the minigame is pretty famous on some MTA:SA server, mainly SAES:RPG
 
 --- 
 
-Please Report any issues or suggestions for the live website on issues.
+Please Report any issues or suggestions for the [live website](https://crack.clockcorp.com/) on issues.
