@@ -1,0 +1,56 @@
+:root {
+  --MainColor: rgba(40, 40, 40, 0.9);
+  --PadColor: rgba(60, 60, 60, 0.85);
+  --InputColor: rgb(230, 230, 230);
+  --ButtonsC: rgba(20, 20, 20, 0.8);
+  --ButtonsHoverC: rgba(20, 20, 20, 1);
+  --CloseBC: rgb(255, 94, 0);
+  --RBackground: rgb(0, 0, 0, 0.9);
+  --OptionBackgroundC: rgb(30, 30, 30, 1);
+  --OptionsBC: rgba(40, 40, 40, 1);
+  --OptionsBHoverC: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Quick Sand";
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+
+@font-face {
+  font-family: "Quick Sand";
+  src: url("../Font/Quicksand.ttf");
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--MainColor);
+  background-image: url("../img/Backgrounds/HomePic.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

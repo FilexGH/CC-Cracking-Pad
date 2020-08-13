@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: var(--MainColor);
+  color: white;
+}
+
+.navbar > h3 {
+  margin-left: 10px;
+  width: 130px;
+  text-align: center;
+  transition: 300ms;
+}
+.navbar > h3:hover {
+  font-size: 20px;
+}
+
+.navbar > ul > li {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  width: 70px;
+  height: 100%;
+  transition: 300ms;
+}
+
+.navbar > ul > li,
+.navbar > h3:hover {
+  cursor: pointer;
+}
+
+.navbar > ul > li:hover {
+  background: white;
+  color: black;
+}

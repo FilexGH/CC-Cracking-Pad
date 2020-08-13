@@ -1,0 +1,42 @@
+.ClassicResult {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--RBackground);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.Results {
+  color: white;
+  width: 250px;
+  height: 250px;
+  background-color: var(--PadColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Data {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Close {
+  height: 30px;
+  width: 100%;
+  background-color: var(--CloseBC);
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.Close:hover {
+  background-color: orangered;
+}

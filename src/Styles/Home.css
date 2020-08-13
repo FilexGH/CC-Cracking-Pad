@@ -1,0 +1,19 @@
+.Home {
+  position: relative;
+  background-color: var(--MainColor);
+  padding: 20px;
+  color: white;
+}
+
+.Home > div {
+  margin-top: 15px;
+}
+
+.Home > div > p > a {
+  color: yellow;
+  text-decoration: none;
+}
+
+.Home > div > p > a:hover {
+  color: aqua;
+}

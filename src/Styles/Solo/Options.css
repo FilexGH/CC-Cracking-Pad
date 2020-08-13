@@ -1,0 +1,49 @@
+.Options {
+  width: 200px;
+  height: 100%;
+  background-color: var(--OptionBackgroundC);
+  color: white;
+}
+
+.OButtons {
+  height: 120px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.OButtons > div {
+  background-color: var(--OptionsBC);
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.OButtons > div:hover:not(.Time) {
+  background-color: var(--OptionsBHoverC);
+  color: black;
+  cursor: pointer;
+}
+
+.Logs {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  height: 207px;
+  margin-top: 29px;
+  padding: 7px;
+}
+
+.Logs::-webkit-scrollbar {
+  display: none;
+}
+
+.Logs > p {
+  margin-top: 5px;
+}

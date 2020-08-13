@@ -1,0 +1,38 @@
+.Footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  background-color: var(--MainColor);
+  color: white;
+}
+
+.Footer > p {
+  margin-right: 10px;
+  font-size: 15px;
+  text-align: right;
+}
+
+.Footer > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.Footer > ul > a {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  transition: 300ms;
+}
+
+.Footer > ul > a:hover {
+  background: white;
+  cursor: pointer;
+}
