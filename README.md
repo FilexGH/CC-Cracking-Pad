@@ -3,7 +3,7 @@
 This is the project code for Clock Corporation's Cracking Pad Website that can be found [here](https://crack.clockcorp.com/) with 
 more info about the content of the website.
 
-The Project is build in the following Technologies:
+The Project is built in the following Technologies:
 
 **Front-End:**
 * [React](https://reactjs.org/)
