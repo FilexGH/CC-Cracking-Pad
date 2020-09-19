@@ -13,7 +13,7 @@ export default class Home extends Component {
             Introducion
           </h4>
           <p className="animate__animated animate__fadeIn animate__delay-1s ">
-            This project was mainly built to provide a cracking platforme online
+            This project was mainly built to provide a cracking platform online
             for{" "}
             <a
               rel="noopener noreferrer"
